@@ -19,7 +19,7 @@ public class Ball : MonoBehaviour
         if (Time.deltaTime >= 2f) bolaLancada = true;
         
 
-            GetComponent<Rigidbody2D>().velocity = velocidade * Random.insideUnitSphere;
+            GetComponent<Rigidbody2D>().velocity = velocidade * Random.onUnitSphere;
         
 
     }
